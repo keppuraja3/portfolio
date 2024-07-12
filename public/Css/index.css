@@ -2,9 +2,7 @@
     margin: 0;padding: 0;box-sizing: border-box;transition: all .09;
 }
 body{
-    display: flex;justify-content: center;
-    align-items: center;
     height: 100vh;
-    background: url("https://wallpaper.forfun.com/fetch/16/1649074ecd03634e05639d767e131258.jpeg") no-repeat fixed center;
+    background: url("..//Images//1351761.png") no-repeat fixed center !important;
     background-size: cover;
 }
