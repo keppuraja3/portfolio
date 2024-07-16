@@ -1,11 +1,16 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import NavBar from './component/NavBar'
+import { Route, Routes } from 'react-router-dom'
+import Home from './component/Home'
 function App() {
   return (
     <>
     <NavBar/>
-    <h1>Portfolio</h1>
+    <Routes>
+      <Route index element={<Home/>}/>
+    </Routes>
+    
     </>
   )
 }

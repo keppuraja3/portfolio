@@ -1,8 +1,0 @@
-*{
-    margin: 0;padding: 0;box-sizing: border-box;transition: all .09;
-}
-body{
-    height: 100vh;
-    background: url("..//Images//1351761.png") no-repeat fixed center !important;
-    background-size: cover;
-}

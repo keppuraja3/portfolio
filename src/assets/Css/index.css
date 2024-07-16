@@ -1,0 +1,10 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;transition: all .09;
+}
+body{
+    height: 100vh;
+    /* background: url("..//Images//bg-2.jpg") no-repeat fixed center !important;
+    background-size: cover; */
+    /* backdrop-filter: blur(10px); */
+    background: #343539;
+}

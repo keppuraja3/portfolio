@@ -1,0 +1,31 @@
+#home-container{
+    height: 90dvh;
+}
+
+#react-icon{
+    animation: flaotingIcon 2s infinite;
+}
+
+#mongodb-icon{
+    animation: flaotingIcon 2s infinite .5s;
+}
+
+#node-icon{
+    animation: flaotingIcon 2s infinite .3s;
+}
+
+#man-profile{
+    animation: flaotingIcon 2s infinite .8s;
+}
+
+
+/* animation keyframes */
+
+@keyframes flaotingIcon {
+    0%,100%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(0px, 5px);
+    }
+}
